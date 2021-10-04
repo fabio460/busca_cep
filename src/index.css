@@ -1,13 +1,143 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+ }
+ body{
+   background-color: rgb(233, 232, 232);
+ }
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(36, 60, 61);
+  align-items: center;
+  color: white;
+  padding-left: 20px;
 }
+header a{
+  text-decoration: none;
+  color: white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h5{
+  font-size: 30px;
+  padding-left: 90px;
+}
+h4{
+  margin: 0px 20px;
+}
+.header_right{
+  display: flex;
+}
+.headerCep{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainCep{
+  display: flex;
+  
+  
+  flex-direction: column;
+  margin-top: 100px;
+}
+.mainCep h1{
+  text-align: center;
+  margin: 15px;
+}
+.bodyCep{
+  margin-left: 380px;
+  margin-top: 40px;
+  font-size: 30px;
+  
+}
+input{
+  width: 700px;
+  height: 40px;
+  padding: 5px;
+  font-size: 25px;
+  margin: 5px;
+  
+}
+input:hover{
+  border: solid orangered 1px ;
+  padding: 6px;
+}
+img{
+  width: 50px;
+}
+.bodyEndereco{
+  
+  width: 700px;
+}
+.bodyEndereco h1{
+  text-align: center;
+}
+.BlocoEndereco{
+  border: 1px solid black;
+}
+button{
+  height: 40px;
+  width: 80px;
+  font-size: 20px;
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+.mainEndereco{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.mainEndereco button{
+  width: 700px;
+}
+.app{
+  width: 100%;
+}
+@media (max-width:390px) {
+  *{
+    
+    margin: 0px;
+    padding: 0px;
+    
+    
+    
+  }
+  input{
+    width: 95%;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  }
+  button{
+    width: 95%;
+    
+  }
+  .mainEndereco button{
+    width: 95%;
+  }
+ 
+  h1{
+    margin: 0;
+    font-size: 25px;
+    padding: 0px;
+  }
+  h5{
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+  .bodyCep{
+    margin-left: 0px;
+    margin-top: 40px;
+    font-size: 30px;
+    
+  }
+  .bodyEndereco{
+    width: 100%;
+  }
 }
