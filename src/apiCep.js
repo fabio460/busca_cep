@@ -4,8 +4,8 @@ import EnderecoCompleto from './enderecos';
 import {BrowserRouter,Link,Switch,Route} from 'react-router-dom';
 function BuscarCep(){
     const [campo,setCampo]=useState('');
-    const [uf,setUf]=useState('rj');
-    const [cidade,setCidade]=useState('rio de janeiro');
+    const [uf,setUf]=useState('');
+    const [cidade,setCidade]=useState('');
     const [rua,setRua]=useState('');
     const [Enderecos,setEnderecos]=useState([]);
     
