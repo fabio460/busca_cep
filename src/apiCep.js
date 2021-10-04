@@ -79,7 +79,7 @@ function BuscarCep(){
                 <Route path='/endereco'>
                     <div className='mainEndereco'>
                         <h1>Buscar Cep</h1>
-                        <input type='text' placeholder='uf' value={uf} onChange={(e)=>{setUf(e.target.value)}}/>
+                        <input type='text' placeholder='UF' value={uf} onChange={(e)=>{setUf(e.target.value)}}/>
                         <input type='text' placeholder='cidade' value={cidade} onChange={(e)=>{setCidade(e.target.value)}}/>
                         <input type='text' placeholder='rua' value={rua} onChange={(e)=>{setRua(e.target.value)}}/>
                         <button onClick={buscaCep}>buscar Cep</button>
