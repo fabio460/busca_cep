@@ -3,3 +3,4 @@ foi usado uma rota para tela de busca de cep por endereço, la voce preenche os 
 Mesmo não colocado o nome completo da rua ele busca mesmo assim, puchando todos os ceps cujo nome da rua e encontrado uma parte do texto que inseriu.
 Neste site foi consumido uma api "ViaCep"
 link do site :https://busca-cep-self.vercel.app/
+Tecnologias: React.js com Hooks, CSS, HTML e javascript
